@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ghost</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo-icon">
+        <h2 class="logo">Task Force - STALKER</h2>
+        <span class="icon"><ion-icon name="skull-outline"></ion-icon></span>
+      </div>
+      <nav class="navigation">
+        <a href="#">HQ</a>
+        <a href="#">Whereabouts</a>
+        <a href="#">Arms</a>
+        <a href="#">Ghost</a>
+        <button class="btnLogin-popup">Login</button>
+      </nav>
+    </header>
+    <div class="wrapper">
+      <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+      <div class="form-box login">
+        <h2>Login</h2>
+        <form action="#">
+          <div class="input-box">
+            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+            <input type="email" required />
+            <label>Mail</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+            <input type="password" required />
+            <label>Passcode</label>
+          </div>
+          <div class="remember-forgot">
+            <label><input type="checkbox" /> Poistive</label>
+            <a href="#">Negative.</a>
+          </div>
+          <button type="submit" class="btn">Login</button>
+          <div class="login-register">
+            <p>
+              Wanna Join Task Force 141.
+              <a href="#" class="register-link">Sign Up</a>
+            </p>
+          </div>
+        </form>
+      </div>
+
+      <div class="form-box signup">
+        <h2>Sign Up</h2>
+        <form action="#">
+          <div class="input-box">
+            <span class="icon"
+              ><ion-icon name="person-outline"></ion-icon
+            ></span>
+            <input type="text" required />
+            <label>Username</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+            <input type="email" required />
+            <label>Mail</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+            <input type="password" required />
+            <label>Passcode</label>
+          </div>
+          <div class="remember-forgot">
+            <label
+              ><input type="checkbox" /> Become a soldier by willing to accept
+              PAIN</label
+            >
+          </div>
+          <button type="submit" class="btn">Sign Up</button>
+          <div class="login-register">
+            <p>
+              Alredy joined Forces.
+              <a href="#" class="register-link">Login</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/ionicons@5.0.1/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/ionicons@5.0.1/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
