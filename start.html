@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ghost</title>
+    <link rel="stylesheet" href="fonts/Call of Ops Duty.otf" type="font/otf" />
+
+    <style>
+      .custom-style {
+        font-family: "Call of Ops Duty";
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        background: url("images/ghost.jpg") center/cover no-repeat fixed;
+        height: 100vh;
+        overflow: hidden;
+      }
+
+      .left-text {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: grey;
+        font-size: 40px;
+        line-height: 1.5;
+      }
+
+      .custom-link {
+        text-decoration: underline overline;
+        color: grey;
+        transition: color 0.3s;
+      }
+
+      .custom-link:hover {
+        color: whitesmoke;
+      }
+
+      @font-face {
+        font-family: "Call of Ops Duty";
+        src: url("fonts/Call of Ops Duty.otf") format("opentype");
+      }
+    </style>
+  </head>
+  <body>
+    <div class="custom-style">
+      <div class="left-text">
+        <p>
+          <a href="login.html" class="custom-link"
+            >Be careful who you trust, soldier.<br />People you know can hurt
+            you the most.</a
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
